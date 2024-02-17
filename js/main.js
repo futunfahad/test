@@ -23,7 +23,7 @@ else if (SHEET_TITLE=="لجنة التقنية"){
     SHEET_RANGE="A1:A11"
 }
 */
-let SHEET_ID="1XmWsUlzt1REztSQkVrImz88mbtlZM8aE";
+let SHEET_ID="1ElSZo6_UO2xiPP7r0xVJ8hWD13k3PiMH";
 let FULL_URL = ('https://docs.google.com/spreadsheets/d/' + SHEET_ID + '/gviz/tq?sheet=' + SHEET_TITLE + '&range=' + SHEET_RANGE);
 fetch(FULL_URL)
 .then(res => res.text())
