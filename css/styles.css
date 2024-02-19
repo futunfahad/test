@@ -267,7 +267,7 @@ margin-bottom: 0;
 }
 
 .Committee_name{
-    top: 9px;
+    top: 1px;
     right: 15px;
     font-size: 1.8rem;
     font-weight: 450;
@@ -284,7 +284,7 @@ margin-bottom: 0;
   text-align: right;
 }
 .Committee_leader{
-    bottom: 1px;
+    bottom: -11px;
     left: 20px;
     font-size: 1.2rem;
   font-weight: 600;
@@ -307,7 +307,7 @@ margin-bottom: 0;
         height: 178px;
     }
     .Committee_name{
-        top: 6px;
+        top: -7px;
         right: 15px;
         font-size: 2.5rem;}
 
