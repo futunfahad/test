@@ -9,7 +9,9 @@ body{
     justify-content: center;
  
 }
-
+html {
+    font-size: 62.5%;
+  }
 body>*{
     margin-bottom: 125px;
 }
