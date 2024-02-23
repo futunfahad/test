@@ -409,3 +409,22 @@ td{
     padding-bottom: 15px;
 
 }
+
+/*Banner*/
+.Banner_logo{
+    height: 15%;
+    width:  9%;
+    z-index: 2;
+    margin-left: 9%;
+    margin-top:9%;
+}
+@media screen and (min-width:786px){
+    .Banner_logo{
+        height: 15%;
+        width:  9%;
+        z-index: 2;
+        margin-left: 7%;
+        margin-top:7%;
+    }
+    
+}
