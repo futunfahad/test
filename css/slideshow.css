@@ -136,11 +136,12 @@ img {vertical-align: middle;}
   }
   .small{
     margin:  18% auto 0  auto;
+  }}
+
+@media screen and (max-width:385px) {
+  .slides_text{
+    margin: auto;}
   }
-  .buttun-container{
-    gap: 52px;
-  }
-}
 
 
 .mySlides>img{
@@ -170,7 +171,7 @@ img {vertical-align: middle;}
 }
 
 @media screen and (max-width:850px) {
-  
+
   .buttun-container{
     gap: 52px;
   }
