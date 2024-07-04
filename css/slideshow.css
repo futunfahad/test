@@ -137,6 +137,9 @@ img {vertical-align: middle;}
   .small{
     margin:  18% auto 0  auto;
   }
+  .buttun-container{
+    gap: 52px;
+  }
 }
 
 
