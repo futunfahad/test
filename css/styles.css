@@ -282,7 +282,7 @@ margin-bottom: 0;
   color: var(--soft-black);
   line-height: 1.8;
   text-align: right;
-  overflow: scroll;
+  overflow: hidden;
 }
 .Committee_box.large{
     height: 260px;
