@@ -10,6 +10,8 @@
     <title>التنمية المستدامة</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/slideshow.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,7 +21,7 @@
   </head>
   <body>
     <header class="Center">
-      <button id="popupBtn" style="padding-left: 15px;white-space: nowrap;">مسابقة الصحة</button>
+      <button id="popupBtn">الانضمام</button>
 
       <!-- The popup div -->
       <div id="popup" class="popup">
@@ -27,9 +29,9 @@
           <span class="close" id="closeBtn" style="align-self: flex-end"
             >&times;</span
           >
-          <h2 style="margin-bottom: 0">مسابقة الصحة</h2>
-          <p>اختبر معلوماتك العامة عن الصحة</p>
-          <a href="quize.html" class="quizepage">اشترك</a>
+          <h2 style="margin-bottom: 0">العضوية</h2>
+          <p>الانضمام ل النادي</p>
+          <a href="quize.html" class="quizepage">سجل</a>
         </div>
       </div>
 
@@ -104,6 +106,61 @@
         </h2>
         <img class="img_card" src="media\goals.png" alt="" srcset="" />
       </dev>
+    </section>
+
+    <section class="Achievements">
+      <img
+        class="line line_middle"
+        src="media\gradiantline.png"
+        alt=""
+        srcset=""
+      />
+      <h2
+        class="Card_title Card_center rakkas-regular"
+        style="margin-bottom: 4%"
+      >
+        الانجازات
+      </h2>
+
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <a class="Achievementsbox" href="achievements.html"></a>
+          <div class="numbertext">1 / 3</div>
+          <img
+            src="https://res.cloudinary.com/dn7ifwu0d/image/upload/v1711249992/%D8%AA%D8%B7%D9%88%D8%B9/mainpage/lmfwjzxta2bt7m0pcfcq.jpg"
+            style="width: 100%"
+          />
+          <div class="mySlides_text">يوم التطوع</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img
+            src="https://res.cloudinary.com/dn7ifwu0d/image/upload/v1711248866/%D8%AA%D8%B7%D9%88%D8%B9/mainpage/jnu9kupffyoaadn9gkue.jpg"
+            style="width: 100%"
+          />
+          <div class="mySlides_text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img
+            src="https://res.cloudinary.com/dn7ifwu0d/image/upload/v1711249027/%D8%AA%D8%B7%D9%88%D8%B9/mainpage/k6qturcuskpalotdvj2v.jpg"
+            style="width: 100%"
+          />
+          <div class="mySlides_text">Caption Three</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      </div>
+      <br />
+
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
     </section>
 
     <section class="Structure">
@@ -315,5 +372,6 @@
     </footer>
     <!--helooo-->
     <script src="js\quize.js"></script>
+    <script src="js\slideshow.js"></script>
   </body>
 </html>

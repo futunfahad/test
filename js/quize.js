@@ -17,9 +17,9 @@ function closePopup() {
 }
 
 // Event listeners for the button and close button
-window.onload = function() {
+/*window.onload = function() {
     openPopup();
-  };
+  };*/
 
 popupBtn.addEventListener("click", openPopup);
 closeBtn.addEventListener("click", closePopup);
