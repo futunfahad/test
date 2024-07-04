@@ -636,5 +636,5 @@ font-family: Verdana, sans-serif;
     width: 70%;
     height: 80%;
     margin: 8% 15%;
-    
+    z-index: 100;;
 }
