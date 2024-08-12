@@ -3,45 +3,70 @@ body {
     font-size: 1.59rem;
     text-align: right;
     font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
   line-height: 1.5;
+
 
   }
 
   
   /* SECTION WRAPPER */
-  .wrapper {
+  .wrapper,header  {
     width: 85%;
     margin: 0 auto;
+    max-width:1000px ;
+  }
+
+  @media screen  and (max-width:800px){
+    .wrapper,header {
+      width: 100%;
+    }
   }
   
   /* TYPOGRAPHY */ 
   h1 {
-    font-size: 48px;
+    font-size: 5rem;
     margin-bottom: 10px;
+margin-right: 10px;
+  }
+ 
+  h2{
+    margin: 10px;
   }
   form p {
     font-size: 1.9rem;
     margin: 50px 0 20px; 
     line-height: 1.6;
   }
-  form p,
-  label[for="comfort"],
-  label[for="explain"] {
+  label {
     padding-bottom: 6px;
     border-bottom: 2.5px solid #91c8ba;
+    margin: 15px 0 20px 15px;
+    display: inline-block;
+    min-width: 150px;
+    max-width: 500px;
+
+   font-size: 1.9rem;
+    line-height: 1.6;
   }
+
+  @media screen and (max-width:700px) {
+    h1{
+      font-size: 3rem;
+    }
+
+ h2{
+    font-size: 1.8rem;
+  }  }
   
   /* HEADER */
   header {
     position: relative;
-    padding: 180px 0px 30px;
+    padding: 50px 0px 30px;
     color: #fff;
-    background: linear-gradient(to bottom, rgba(43,38,96,0) 0%, rgb(145, 200, 186) 70%, rgb(119, 159, 149) 100%);
+    background: linear-gradient(to bottom, rgba(43,38,96,0) 0%, rgb(145, 200, 186) 30%, rgb(119, 159, 149) 100%);
     text-shadow: 1px 1px 1px #3f3e3e;
     background-position: bottom;
+    margin-bottom: 5rem;
   }
   
   /* SECTION */
@@ -53,19 +78,15 @@ body {
   /* FORM STYLES */
   .input-wrap {
     margin-bottom: 10px;
+    padding-right: 15px;
   }
+
+ 
   select {
     display: block;
     margin-bottom: 50px;
   }
 
-  label[for="comfort"],
-  label[for="explain"]{
-    display: block;
-    margin-bottom: 20px;
-   font-size: 1.9rem;
-    line-height: 1.6;
-  }
   input[type="text"],
   textarea {
     width: 80%;
